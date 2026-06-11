@@ -7,23 +7,23 @@ Most auth setups take hours — token storage, protected routes, API headers, re
 
 ```bash
 # clone and install
-git clone https://github.com/YOURUSERNAME/jwt-connector.git
+git clone https://github.com/princensut/NexAuth-connector.git
 cd jwt-connector
 npm install
 ```
 
 ---
 
-## The entire setup — 60 seconds, no kidding
+## The entire setup in minutes
 
 ```js
-// Step 1 — wrap your protected route (5 seconds)
+// Step 1 — wrap your protected route 
 <Route path='/dashboard' element={<PrivateRoute element={<Dashboard />} />} />
 
-// Step 2 — use auth state anywhere (5 seconds)
+// Step 2 — use auth state anywhere 
 const { user, logout } = useAuth()
 
-// Step 3 — make authenticated API calls (5 seconds)
+// Step 3 — make authenticated API calls 
 const data = await apiFetch('/api/products')
 
 // Done. Your app now has:
@@ -102,7 +102,7 @@ Dashboard loads ✅  token attached to all API calls ✅
 Your backend URL is always just:
 
 ```
-VITE_API_URL=https://your-backend.vercel.app
+VITE_API_URL=https://mongodb-vrzy.vercel.app
 ```
 
 No login page HTML. No form handling. No token logic. Nothing.
@@ -114,7 +114,7 @@ No login page HTML. No form handling. No token logic. Nothing.
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/YOURUSERNAME/jwt-connector.git
+git clone https://github.com/princensut/NexAuth-connector.git
 cd jwt-connector
 npm install
 ```
@@ -123,7 +123,7 @@ npm install
 
 ```bash
 # .env
-VITE_API_URL=https://your-backend.vercel.app
+VITE_API_URL=https://mongodb-vrzy.vercel.app
 ```
 
 Works in any environment — local, staging, production — with no code changes.
@@ -284,8 +284,8 @@ Add `VITE_API_URL` under **Vercel → Settings → Environment Variables**.
 
 ## Links
 
-- Frontend live → [jwt-connector.vercel.app](https://jwt-connector.vercel.app)
-- Backend repo → [github.com/YOURUSERNAME/mongodb-auth-backend](https://github.com/YOURUSERNAME/mongodb-auth-backend)
+- Frontend live → [NexAuth-connector.vercel.app]
+- Backend repo → [github.com/princensut/mongodb](https://github.com/princensut/mongodb)
 - Issues → open an issue on GitHub
 
 ---
@@ -293,8 +293,8 @@ Add `VITE_API_URL` under **Vercel → Settings → Environment Variables**.
 ## Author
 
 **Your Name**
-- GitHub: [@YOURUSERNAME](https://github.com/YOURUSERNAME)
-- LinkedIn: [linkedin.com/in/YOURPROFILE](https://linkedin.com/in/YOURPROFILE)
+- GitHub: [@YOURUSERNAME](https://github.com/princensut)
+- LinkedIn: [linkedin.com/in/YOURPROFILE](https://linkedin.com/in/prince-kumar-nsut)
 
 ---
 
